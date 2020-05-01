@@ -58,7 +58,7 @@ function renderCheese() {
 
 function renderTomatoes() {
   //Trial 1 - Change the visibility of Tomatoes based on state by manipulating the DOM
-  let $tomatoes = document.querySelector("#tomatoes");
+  let $tomatoes = document.querySelector("#tomato");
   //you can also use getElementById
   if (state.Tomatoes) {
     $tomatoes.style.display = "inherit";
@@ -69,7 +69,7 @@ function renderTomatoes() {
 
 function renderOnions() {
   //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
-  let $onions = document.querySelector("#onions");
+  let $onions = document.querySelector("#onion");
   //you can also use getElementById
   if (state.Onions) {
     $onions.style.display = "inherit";
